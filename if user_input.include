@@ -1,6 +1,6 @@
 print ("Write something")
 user_input = gets.chomp.downcase!
-if string_to_check.include? "s"
+if user_input.include? "s"
     print "s"
 else
     print "Nothing"
